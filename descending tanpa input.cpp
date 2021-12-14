@@ -13,7 +13,6 @@ int main(){
 		swapped = false;
 		
 		for(int i=0; i<IndexOfLastSortedElement; i++){
-			
 			if(array[i]<array[i+1]){  //apabila bilangan ke-i lebih kecil daripada bilangan setelahnya
 				
 				temp       = array[i];
