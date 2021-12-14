@@ -22,7 +22,6 @@ int main(){
 		swapped = false;
 		
 		for(int i=0; i<IndexOfLastSortedElement-1; i++){ // -1 karena index array tidak bisa diisi semua
-			
 			if(array[i]>array[i+1]){  //apabila bilangan ke-i lebih besar daripada bilangan setelahnya
 				
 				temp       = array[i];
